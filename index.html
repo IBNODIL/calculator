@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    
+    <div class="calculator">
+        
+        <div id="input"></div>
+
+        <div class="buttons">
+            <button onclick="getNumber('one')" class="numbers btn" id="one">1</button>
+            <button onclick="getNumber('two')" class="numbers btn" id="two">2</button>
+            <button onclick="getNumber('three')" class="numbers btn" id="three">3</button>
+            <button onclick="getNumber('four')" class="numbers btn" id="four">4</button>
+            <button onclick="getNumber('five')" class="numbers btn" id="five">5</button>
+            <button onclick="getNumber('six')" class="numbers btn" id="six">6</button>
+            <button onclick="getNumber('seven')" class="numbers btn" id="seven">7</button>
+            <button onclick="getNumber('eight')" class="numbers btn" id="eight">8</button>
+            <button onclick="getNumber('nine')" class="numbers btn" id="nine">9</button>
+            <button onclick="getNumber('zero')" class="numbers btn" id="zero">0</button>
+            <button onclick="ishorachi('plus')" class="btn" id="plus">+</button>
+            <button onclick="ishorachi('minus')"  class="btn" id="minus">-</button>
+            <button onclick="ishorachi('multiple')" class="btn" id="multiple">*</button>
+            <button onclick="ishorachi('devis')" class="btn" id="devis">/</button>
+            <button onclick="getNumber('dot')" class="btn" id="dot">.</button>
+            <button onclick="equals()" class="btn" id="equal">=</button>
+        </div>
+        <button onclick="del()" id="delete" class="btn">DEL ALL</button>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
